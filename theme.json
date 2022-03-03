@@ -1,0 +1,96 @@
+{
+    "#title": {
+        "colours": {
+            "normal_text": "#095228FF"
+        },
+        "font": {
+            "name": "poppins",
+            "size": "30",
+            "bold": "0",
+            "italic": "0",
+            "regular_resource": {
+                  "package": "assets.fonts",
+                  "resource": "Poppins-ExtraBold.ttf"
+             }
+        }
+    },
+    "@menu_btn": {
+        "misc": {
+            "shape": "rounded_rectangle"
+        },
+        "colours": {
+            "normal_text": "#000000FF",
+            "hovered_text": "#000000FF",
+
+            "normal_border": "#BADBFFFF",
+            "hovered_border": "#101010FF",
+
+            "normal_bg": "#BADBFFFF",
+            "hovered_bg": "#BADBFFCC"
+        },
+        "font": {
+            "name": "poppins",
+            "size": "20",
+            "bold": "0",
+            "italic": "0"
+        }
+    },
+    "#gameover_panel": {
+        "misc": {
+            "shape": "rounded_rectangle"
+        }
+    },
+    "@gameover_btn": {
+        "misc": {
+            "shape": "rounded_rectangle"
+        },
+        "colours": {
+            "normal_text": "#000000FF",
+            "hovered_text": "#000000FF",
+
+            "normal_border": "#BADBFFFF",
+            "hovered_border": "#101010FF",
+
+            "normal_bg": "#BADBFFFF",
+            "hovered_bg": "#BADBFFCC"
+        },
+        "font": {
+            "name": "poppins",
+            "size": "18",
+            "bold": "0",
+            "italic": "0"
+        }
+    },
+    "@game_label": {
+        "font": {
+            "name": "poppins",
+            "size": "20",
+            "bold": "0",
+            "italic": "0"
+        },
+        "misc": {
+            "text_horiz_alignment": "left"
+        }
+    },
+    "#coin_counter": {
+        "colours": {
+            "normal_text": "#FFD700FF"
+        }
+    },
+    "#speed_counter": {
+        "colours": {
+            "normal_text": "#FF7F00FF"
+        }
+    },
+    "#gameover_title": {
+        "colours": {
+            "normal_text": "#FF0000FF"
+        },
+        "font": {
+            "name": "poppins",
+            "size": "30",
+            "bold": "0",
+            "italic": "0"
+        }
+    }
+}
