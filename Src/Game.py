@@ -5,10 +5,10 @@ import pygame_gui as pg_gui
 from PIL import Image
 import numpy as np
 
-from Player import Player
-from Tree import Tree
-from Coin import Coin
-import Color
+from .Player import Player
+from .Tree import Tree
+from .Coin import Coin
+from .Color import WHITE
 
 class Game:
 
@@ -25,7 +25,7 @@ class Game:
         self.screen_size = self.width, self.height = self.screen_width, self.screen_height = 400, 700
 
         self.screen = pg.display.set_mode(self.screen_size)
-        self.manager = pg_gui.UIManager(self.screen_size, "theme.json")
+        self.manager = pg_gui.UIManager(self.screen_size, "Src/theme.json")
 
         self.running = True
         self.in_menu = True
@@ -325,7 +325,7 @@ class Game:
 
             self.manager.update(time_delta)
 
-            self.screen.fill(Color.WHITE)
+            self.screen.fill(WHITE)
 
             if not self.in_menu:
 
